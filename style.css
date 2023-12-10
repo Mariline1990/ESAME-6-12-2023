@@ -1,0 +1,12 @@
+#logo {
+  width: 35px;
+}
+.imgTel {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.eliminaButton:hover {
+  background-color: brown;
+  color: aliceblue;
+}
