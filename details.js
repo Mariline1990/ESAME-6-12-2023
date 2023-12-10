@@ -30,7 +30,7 @@ window.onload = () => {
            <strong class="span1">Descrizione</strong><span class="span2">${item.description}</span>
          </li>
          <li class="list-group-item d-flex justify-content-between">
-           <strong class="span1">prezzo</strong><span class="span2">${item.price + "$"}</span>
+           <strong class="span1">prezzo</strong><span class="span2">${item.price}$</span>
          </li>
          <li class="list-group-item d-flex justify-content-between">
          <strong class="span1">createdAt</strong><span class="span2">${item.createdAt}</span>

@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", () => {
         listItem.innerHTML = `<img src="${element.imageUrl}" class="imgTel" />
       <span>${element.name}</span
       ><span class="badge  text-black ms-auto"
-        >${element.price}</span
+        >${element.price}$</span
       ><button class="btn btn-outline-success"><a href="/details.html?idItem=${element._id}" class="link-underline-opacity-0">Scopri di più </a>  </button>
       `;
       });
