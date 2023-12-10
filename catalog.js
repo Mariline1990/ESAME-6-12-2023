@@ -22,6 +22,7 @@ window.addEventListener("DOMContentLoaded", () => {
       ><span class="badge  text-black ms-auto"
         >${element.price}$</span
       ><button class="btn btn-outline-success"><a href="/details.html?idItem=${element._id}" class="link-underline-opacity-0">Scopri di più </a>  </button>
+      <button class="btn btn-outline-alarm"><a href="./backoffice.html?myid=${element._id}" class="link-underline-opacity-0">Modifica </a>  </button>
       `;
       });
     })
